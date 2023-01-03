@@ -1,13 +1,13 @@
-import anime from '/node_modules/animejs/lib/anime.es.js';
+const Icon = document.querySelector('#profile');
+const svg = document.querySelector('#profile-svg');
+const text = document.querySelector('#about-me');
 
-const Bay = document.getElementById('profile');
-const hey = document.getElementById('avatar');
-console.log(hey);
+console.log(Icon);
+var tl = gsap.timeline({repeat:2, repeatDelay:1});
+tl.to(svg,{opacity:0,duration:1});
+tl.to(text,{opacity:0,duration:1});
+tl.to(Icon, {x: -20, duration: 1, ease:"power1"});
+tl.to(svg,{opacity:1,duration:1});
+tl.to(text,{opacity:1,duration:1});
+tl.to(Icon, {x: 0, duration: 1});
 
-anime({
-    targets: Bay,
-    translateX:270,
-    duration: 5000,
-    easing: 'easeInOutExpo',
-    autoplay: true
- });
