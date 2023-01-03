@@ -10,9 +10,9 @@
 <body>
     <div>
         <div class="background w-full h-full bg-no-repeat bg-cover bg-fixed bg-center overflow-hidden">
-            <div id="avatar" class="bg-slate-200 my-8 mx-24 p-10 h-full rounded-md max-sm:mx-4">
-                <div class="lg:grid grid-cols-2 auto-rows-max gap-4 items-center p-8 mb-36 h-fit">
-                    <div class="flex flex-col gap-6 p-4">
+            <div id="avatar" class="bg-slate-200 my-6 mx-2 p-2 h-full rounded-md">
+                <div class="sm:grid auto-rows-max gap-4 items-center p-6">
+                    <div class="flex flex-col gap-6 p-4 max-md:grid">
                         <h4 class=" text-sm text-amber-600 tracking-widest">WEB DESIGNER</h4>
                         <h1 class="font-elmessiri text-7xl">Ramzi Fartas</h1>
                         <p class="capitalize">I'm ramzi, an independant web designer from algeria. i usually work with vanilla javascript without frameork for small projects, allowing me a complete freedom on architecture, a headless cms like prismic for content management, gsap for animations and three.js for webGl.
@@ -22,42 +22,37 @@
                         </svg>
                         <span><p class="text-sm">Services Available 24 hours a day</p></span>
                     </div>
-                        <div>
+                        <div class="flex items-center gap-2 sm:place-content-center">
                     <input type="text" placeholder="E-mail"> 
                     <button class="text-white bg-amber-600 rounded-lg text-sm px-4 py-2.5 hover:bg-amber-500" type="submit" name="Submit">SUBSCRIBE     
                     </button>
                         </div>
-                    </div>
-
-                    <div id="profil" class="place-self-center p-2 bg-gradient-to-b from-amber-700 to-amber-500 rounded-r-full">
-                        <img class="rounded-full w-80 h-full" src="Assets/Profil.png" alt="Profil Picture">
-                    </div>
+                    </div>    
                 </div>
-
-                <hr class="my-8 border-amber-600">
         
-                <div class="md:flex flex-col justify-center items-center gap-3 p-8 h-fit">
+                <div class="flex flex-col justify-center items-center gap-3 p-8 h-fit">
+                    <div id="profil" class="place-self-center bg-gradient-to-b from-amber-700 to-amber-500 rounded-r-full">
+                        <img class="rounded-full w-80" src="assets/Profil.png" alt="Profil Picture">
+                    </div>
                     <h4 class ="text-sm text-amber-600">Experience</h4>
                     <h1 class="font-elmessiri text-5xl">About Me</h1>
-                    <p class="text-center text-3xl mt-6">Web Designer With 2 Years. I Specialize In Creating Minimalist, Clean And High-Converting User Experiences For Web And Mobile.
+                    <p class="text-center text-3xl mt-6">Web Designer With 2 Years of Experience. I Specialize In Creating Minimalist, Clean And High-Converting User Experiences For Web And Mobile.
                     </p>
-                    <section class="flex flex-col gap-4 my-10">
-                        <div class="flex flex-1 gap-2 items-center">
-                
-                            <span class="font-elmessiri text-xl"><p>I Like to go Beyond the edges of flat patterns</p></span>
+                   
+                    <section class="flex flex-col gap-4 mt-20 p-4 ring-2 ring-amber-600">
+
+                        <div>
+                            <span class="text-xl font-semibold"><p>I Like to go Beyond the edges of flat patterns</p></span>
                         </div>
-                        <div class="flex flex-1 gap-2 items-center">
-                            
-                            <span class="font-elmessiri text-xl"><p>But at the same time keep their balance</p></span>
+
+                        <div>  
+                            <span class=" text-xl font-semibold"><p>But at the same time keep their balance</p></span>
                         </div>
-                        <button class="text-white text-center bg-amber-600 rounded-md text-sm px-4 py-2.5 hover:bg-amber-500 flex items-center gap-2" type="submit">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                            <p>Contact Me</p>     
-                        </button>
+
                     </section>
                 </div>
         
-                <div class="grid grid-cols-2 my-16">
+                <div class="grid my-28 sm:grid-cols-2">
                     <div class="place-self-center m-6 ">
                         <h1 class="font-elmessiri text-5xl text-zinc-500 text-center">01<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg></h1>
                         <p><span class="font-bold">Design</span> : Creating a style guide that documents style choices, such as fonts, colors, and other style embellishments, in order to keep the site consistent over time.</p>
@@ -67,11 +62,12 @@
                         <p><span class="font-bold">Code</span> : Creating and trouble-shooting yhe documents, style sheets, scripts, and images that make up the site, as for deployment it can be handled but decision mostly left to the client.</p>
                     </div>
                 </div>
-                            <div class="flex flex-col justify-center items-center gap-4 my-8">
+
+                <div class="flex flex-col justify-center items-center gap-4 my-8">
                     <h1 class="font-elmessiri text-5xl text-zinc-500">What Do I Do</h1>
-                    <p>I Make Profesionnal Looking Websites and E-commerce Sites</p>
-                                <section>
-                                    <ul>
+                    <p class="text-center font-semibold pt-6">I Make Profesionnal Looking Websites and E-commerce Sites</p>
+                        <section class="py-8">
+                            <ul>
                             <li class="flex flex-1 items-center gap-2 my-2"><svg class="text-amber-600 w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                             <span><p>Responsive And Cross-Browser Compatible</p></span></li>
@@ -84,21 +80,21 @@
                             <li class="flex flex-1 items-center gap-2 my-2"><svg class="text-amber-600 w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                             <span><p>Cool Animations and Transitions</p></span></li>
-                                    </ul>
-                                </section>
-                            </div>
+                            </ul>
+                        </section>
+                </div>
                             
-                            <div class="max-h-screen">
-                                <h1 class="font-elmessiri text-5xl">Projects</h1>
+                <div class="max-h-screen">
+                                <h1 class="font-elmessiri text-5xl text-center sm:text-left">Projects</h1>
                                 <hr class="my-8 border-amber-600">
-                                <div class="md:flex gap-8 oveflow-hidden p-10">
-                                <a href="https://ramzifartas.github.io/Aspen-Center/" target="_blank" rel="noopener" class="shrink-0"><img src="assets/Aspen Design.png" alt="Aspen Center Page Demo" class=" h-56 w-60 overflow-hidden hover:ring-4 ring-amber-600 cursor-pointer"></a>
-                                <div class="sm:mt-4">
-                                    <h3 class="text-amber-500 font-bold">Aspen-Center Landing Page</h3>
-                                    <p class="text-left capitalize leading-tight">made with pure html css and vanilla js no frameworks or libraries, took me 4 days to finish and deploy</p>
-                                </div>
+                            <div class="grid gap-4 oveflow-hidden p-2">
+                                <a href="https://ramzifartas.github.io/Aspen-Center/" target="_blank" rel="noopener" class="place-self-center sm:place-self-start"><img src="assets/Aspen Design.png" alt="Aspen Center Page Demo" class=" h-56 w-60 overflow-hidden hover:ring-4 ring-amber-600 cursor-pointer"></a>
+                                <div class="px-2 my-4">
+                                <h3 class="text-amber-500 font-bold text-center mb-2 sm:text-left">Aspen-Center Landing Page</h3>
+                                <p class="text-center capitalize leading-tight sm:text-left">made with pure html css and vanilla js no frameworks or libraries, took me 4 days to finish and deploy</p>
                                 </div>
                             </div>
+                </div>
                             
 
                             <div class="bg-amber-600 w-50% py-20 px-14 overflow-hidden sm:mt-4">
